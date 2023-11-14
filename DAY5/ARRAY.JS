@@ -1,5 +1,9 @@
-// let buah = ["nanas", "pisang". "mangga"];
+// array - push
 
-// buah.splice(1,0,'alpukat');
+let buah = ["nanas", "pisang", "mangga"];
 
-// console.log(buah);
+buah.push("alpukat"); 
+
+console.log(buah);
+
+cons
