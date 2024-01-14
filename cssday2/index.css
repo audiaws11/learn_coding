@@ -1,0 +1,28 @@
+.container{
+    padding: 20px;
+    width:1000px;
+    height: 500px;
+    border: 5px dashed rgb(87, 87, 230);
+    border-radius: 40px;
+    margin: 30px;
+    float: inherit;
+    text-align: center;
+}
+
+.span{
+    color: rgb(28, 26, 130);
+}
+
+.child1{
+    padding: 20px;
+    width:100px;
+    height: 50px;
+    border: 5px solid rgb(108, 17, 17);
+}
+
+.child2{
+    padding: 20px;
+    width:100px;
+    height: 50px;
+    border: 5px solid rgb(11, 69, 13);
+}

@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(80, 213, 168);
+}
+
+/* body{
+    background-color: azure;
+} */
+
+
+.hello{
+    color:rgba(10, 35, 22, 0.7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h2 {
+    background-color: beige;
+    font-family: sans-serif;
+    font-weight:600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#test {
+    color:blue;
+}
+
+h3{
+    color: #3a825c;
+    background-color: #cadad1;
+}
+
+input[type=text]
+input[type=date] {
+    width: 30px;
+}
+
+ol{
+  list-style-type:decimal-leading-zero;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
