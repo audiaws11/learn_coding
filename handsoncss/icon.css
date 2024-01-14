@@ -1,0 +1,65 @@
+.icon{
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+    gap: 40px;
+    display:flex;
+    justify-content: center;
+    border:5px solid #5c0606;
+    margin:30px;
+    border-radius: 400px;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    background-color: #0230b1; 
+    border-radius: 100px;
+    text-align: center;
+    font-size: 180px;
+    font-weight: 600;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif
+  }
+
+
+.square {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #0c6da5; 
+    border: 2px solid #0c6da5; 
+    text-align: center;
+    font-size: 150px;
+    font-weight: 600;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .square1 {
+    border-radius: 50px;
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff; 
+    border: 10px solid #000000; 
+    text-align:right;
+    
+  }
+
+  .small{
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    float:right;
+    margin: 20px;
+  }
+
+  .big{
+    width: 80px;
+    height: 80px;
+    border: 10px solid #000000;
+    border-radius: 80px;
+    margin: 40px;
+  }
+
+ 
