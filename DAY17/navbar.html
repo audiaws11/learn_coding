@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="bg-white min-vh-1000">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand fs-2" href="#"
+            ><span style="color: #f6a973">Chom</span>erce</a
+          >
+          <div class="input-group w-50 justify-content-center">
+            <input
+              type="text"
+              class="form-control rounded-start-pill border-end-0"
+              placeholder="Search for anything"
+              aria-label="Search for anything"
+              aria-describedby="basic-addon2"
+            />
+            <span
+              class="input-group-text bg-white rounded-end-pill"
+              id="basic-addon2"
+              ><i class="bi bi-search"></i
+            ></span>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light text-warning">
+              Sign In
+            </button>
+            <button type="button" class="btn btn-light text-warning">
+              <i class="bi bi-cart3"></i>
+            </button>
+          </div>
+      </nav>
+
+      <!-- icon -->
+      <div class="container-fluid d-flex bg-light justify-content-center">
+
+        <div class="row justify-content-center">
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn text-primary rounded-pill " style="background-color:#E3F5FF;width: 76px;height: 40px;">
+                    <i class="bi bi-camera-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 3rem;">
+                    Camera
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn text-success rounded-pill" style="background-color:#F1FFF2; width: 76px;height: 40px;">
+                    <i class="bi bi-controller"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;">
+                    Console
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn text-success rounded-pill" style="background-color:#F1FFF2; width: 76px;height: 40px;">
+                    <i class="bi bi-cpu-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px;">
+                CPU
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div >
+                <button type="button" class="btn btn-light text-danger rounded-pill" style="background-color:#FFE0E0; width: 76px;height: 40px;">
+                    <i class="bi bi-phone-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px">
+                    Gadget
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn text rounded-pill " style="background-color:#F9E4D3; width: 90px;height: 40px;">
+                    <i class="bi bi-headset"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 90px;height: 60px;text-align:center;">
+                    Gadget Accesories
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn text-danger rounded-pill" style="background-color:#FBF2F4; width: 76px;height: 40px;">
+                    <i class="bi bi-hdd-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px">
+                    Hardisk
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div >
+                <button type="button" class="btn text-secondary rounded-pill" style="background-color: #F8F1FF; width: 76px;height: 40px;">
+                    <i class="bi bi-display"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px">
+                    Monitor
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn  text-primary rounded-pill" style="background-color: #E3F5FF; width: 76px;height: 40px;">
+                    <i class="bi bi-mouse-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px">
+                    Mouse
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div >
+                <button type="button" class="btn  text-warning rounded-pill" style="background-color:#FFFAF5; width: 76px;height: 40px;">
+                    <i class="bi bi-tv-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px">
+                    TV
+                </button>
+            </div>
+        </div>
+        <div class="col-1 d-flex m-2">
+            <div>
+                <button type="button" class="btn  text-primary rounded-pill" style="background-color: #F8F1FF; width: 76px;height: 40px;">
+                    <i class="bi bi-router-fill"></i>
+                </button>
+                <button type="button" class="btn btn-light" style="font-size: 14px;width: 76px;height: 40px">
+                    Router
+                </button>
+            </div>
+        </div>  
+    </div>
+    </div>
+
+      <!-- card -->
+      <div class="row  mt-5 ms-5 mb-5  justify-content-center d-flex">
+        <div class="col-3">
+            <div class="card mb-4 border-0" style="width: 15rem;height: 280px;">
+                <img src="https://images.unsplash.com/photo-1578898395216-78dae5d29344?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                class="card-img-top"
+                style="height: 170px" 
+                alt="img-1">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">PS4 OP Stick Bonus USB Charge Cable White</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$25.87</a>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://images.unsplash.com/photo-1596207891316-23851be3cc20?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG93ZXJiYW5rJTIwd2lyZWxlc3N8ZW58MHx8MHx8fDA%3D" 
+                    class="card-img-top" 
+                    style="height: 170px;"
+                    alt="img-2">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">Hippo Ilo W2 Powerbank wireless 10000mah</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$32.50</a>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://images.unsplash.com/photo-1636211993589-6daf32038bd1?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXN1cyUyMHplbmJvb2t8ZW58MHx8MHx8fDA%3D" 
+                class="card-img-top" 
+                style="height: 170px;"
+                alt="img-3">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">ASUS ExpertBook B1400CEAE-EK3424T</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$527.66</a>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://i.pinimg.com/564x/df/b5/ab/dfb5ab2b218c6ad87ad665fa5ab4ddba.jpg" 
+                class="card-img-top" 
+                style="height: 185px;"
+                alt="img-4">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">SAMSUNG Galaxy A03</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$118.60</a>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://i.pinimg.com/564x/59/a4/ca/59a4ca721b965921f46210a29f205dff.jpg" 
+                class="card-img-top" 
+                style="height: 170px;"
+                alt="img-5">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">SAMSUNG 32 Inch TV LED UA32T4003</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$188.55</a>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://i.pinimg.com/564x/67/87/86/678786603c7566869147fa3dbf5bcf85.jpg" 
+                class="card-img-top" 
+                style="height: 185px;"
+                alt="img-6">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">LOGITECH Pop Mouse</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$24.29 <span class="text-decoration-line-through text-dark"style="font-size: 10px;">$30.30</span></a><span class="text-success"style="font-size: 12px;"> disc 10%</span>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://i.pinimg.com/564x/6f/8f/4e/6f8f4ed8e248fe6d6a6c442a3ca7620f.jpg" 
+                class="card-img-top" 
+                style="height: 160px;"
+                alt="img-7">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">ACER All-In-One Aspire C24-1650 (Core i3-1115G4, 4GB, 1TB HDD, Win 11 Home)</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$588.66</a>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card border-0" style="width: 15rem;height: 280px;">
+                <img src="https://i.pinimg.com/564x/47/00/ca/4700caaac84cb97f603d7cd9040b7843.jpg" 
+                class="card-img-top" 
+                style="height: 185px;"
+                alt="img-8">
+                <div class="card-body ">
+                  <h5 class="card-title" style="font-size: smaller;">TP-LINK Archer AX73 Router</h5>
+                  <a href="#" class="btn btn-light border-2 border-warning rounded-pill btn-sm">$116.71<span class="text-decoration-line-through text-dark"style="font-size: 10px;">$128.86</span></a><span class="text-success"style="font-size: 12px;"> disc 15%</span>
+                  
+                </div>
+              </div>
+        </div>
+        </div>
+      </div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
